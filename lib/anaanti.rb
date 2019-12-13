@@ -5,15 +5,14 @@ class AnaAnti
     @vowels = ["a", "e", "i", "o", "u", "y"]
   end
 
-  def ana_anti_checker
-  end
-
-  def word_checker
+  def ana_checker
     word1 = @input1.downcase
     word2 = @input2.downcase
     arr1 = word1.chars.sort
     arr2 = word2.chars.sort
-    if arr1.eql?(arr2) then return "These words are anagrams." end
+    if arr1.eql?(arr2)
+      "These words are anagrams."
+    end
   end
 
   def vowel_checker
