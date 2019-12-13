@@ -4,7 +4,7 @@ class AnaAnti
     @word2 = word2
   end
 
-  def checker()
+  def ana_anti_checker
     word1 = @word1.downcase
     word2 = @word2.downcase
     arr1 = word1.chars.sort
