@@ -18,4 +18,8 @@ describe('#AnaAnti') do
     anaanti = AnaAnti.new("hi", "bye")
     expect(anaanti.anti_checker()).to(eq("These words have no letter matches and are antigrams."))
   end
+  it('should account for multiple words being anagrams or "antigrams"') do
+    anaanti = AnaAnti.new("anagram", "nag a ram")
+    expect(anaanti.anti_checker()).to(eq("These words are anagrams."))
+  end
 end
