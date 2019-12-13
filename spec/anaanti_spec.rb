@@ -10,4 +10,8 @@ describe('#AnaAnti') do
     anaanti = AnaAnti.new("Ruby", "bury")
     expect(anaanti.ana_anti_checker()).to(eq("These words are anagrams."))
   end
+  it('should check if the inputs are words') do
+    anaanti = AnaAnti.new("hjkl")
+    expect(anaanti.ana_anti_checker()).to(eq("You need to input actual words!"))
+  end
 end
