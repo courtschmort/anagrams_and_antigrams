@@ -18,17 +18,16 @@ class AnaAnti
   def anti_checker
     word1 = @input1.downcase
     word2 = @input2.downcase
-    arr1 = word1.chars
-    arr2 = word2.chars
-    merge_arr = arr1|arr2
-    concat_arr = arr1.concat(arr2)
-    if merge_arr == concat_arr
+    arr1 = word1.chars.sort
+    arr2 = word2.chars.sort
+    new_array = arr1 & arr2
+    if new_array.length == 0
       "These words have no letter matches and are antigrams."
     end
   end
 
   def vowel_checker
     if !@vowels.include?(@input1) | !@vowels.include?(@input2) then return "You need to input actual words!" end
-  end
+    end
 
-end
+  end
