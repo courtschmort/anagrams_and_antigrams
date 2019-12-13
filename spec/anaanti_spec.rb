@@ -1,7 +1,7 @@
 require('rspec')
 require('anaanti')
 
-describe('#Anaanti') do
+describe('#AnaAnti') do
   it('') do
     expect().to(eq())
   end
