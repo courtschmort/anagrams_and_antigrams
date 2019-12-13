@@ -12,6 +12,6 @@ describe('#AnaAnti') do
   end
   it('should check if the inputs are words') do
     anaanti = AnaAnti.new("mrs", "mrs")
-    expect(anaanti.ana_anti_checker()).to(eq("You need to input actual words!"))
+    expect(anaanti.vowel_checker()).to(eq("You need to input actual words!"))
   end
 end
