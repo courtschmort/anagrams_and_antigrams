@@ -24,5 +24,4 @@ class AnaAnti
   def contains_vowel(str)
     str =~ /[aeiouy]/
   end
-
 end
