@@ -22,4 +22,8 @@ describe('#AnaAnti') do
     anaanti = AnaAnti.new("anagram", "Nag a ram.")
     expect(anaanti.ana_anti_checker()).to(eq("These words are anagrams."))
   end
+  it('should check if two words are neither anagrams or "antigrams"') do
+    anaanti = AnaAnti.new("she", "her")
+    expect(anaanti.ana_anti_checker()).to(eq("She and her are neither anagrams or antigrams."))
+  end
 end

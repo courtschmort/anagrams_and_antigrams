@@ -17,7 +17,7 @@ class AnaAnti
     elsif new_array.length == 0
       "These words have no letter matches and are antigrams."
     else
-      "#{word1} and #{word1} are neither anagrams or antigrams."
+      "#{word1.capitalize} and #{word2} are neither anagrams or antigrams."
     end
   end
 
