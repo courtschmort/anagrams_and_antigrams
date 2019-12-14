@@ -1,6 +1,6 @@
 # Antigrams and Anagrams
 
-#### Behavior-Driven Development Independent Project for Epicodus; December 13, 2019
+#### Behavior-Driven Development Independent Project for [Epicodus](https://www.epicodus.com/); December 13, 2019
 
 #### By Courtney Schild
 
@@ -42,9 +42,9 @@ The following prompt outlines the project requirements:
 
 ## Setup/Installation Requirements
 
-<!-- This website may be viewed on any web browser and edited by following the instructions below to clone or download the repository to your computer.
+This algorithm may be viewed and edited by following the instructions below to clone or download the repository to your computer.
 
-**Click [here](https://courtschmort.github.io/doctor-lookup-independent-project/) to open the GitHub Pages website.**
+<!-- **Click [here](https://courtschmort.github.io/anagrams_and_antigrams/) to open the GitHub Pages website.** -->
 
 #### Cloning
 
@@ -54,19 +54,17 @@ The following prompt outlines the project requirements:
 
 ###### From the command-line interface (CLI)
 1. To change the directory, type `cd Desktop` after the command prompt.
-2. To clone the repository to your Desktop, type `git clone https://github.com/courtschmort/doctor-lookup-independent-project.git` after the command prompt. (This web URL can be located within the **Clone or download** dropdown button in GitHub.)
+2. To clone the repository to your Desktop, type `git clone https://github.com/courtschmort/anagrams_and_antigrams.git` after the command prompt. (This web URL can be located within the **Clone or download** dropdown button in GitHub.)
 
 For more information about cloning repositories available on GitHub, click [here](https://help.github.com/en/articles/which-remote-url-should-i-use).
 
-#### Install webpack
+#### Ruby
 
-###### From the CLI
-3. Type `npm install` to install the dependencies in the local node_modules folder.
-4. Type `npm run build` (or `npm build`) to run custom scripts specified in package.json, or `npm run start` to do the same and use live reloading on a web development server at http://localhost:8080/.
-
-#### API Keys
-5. This website uses an API key from [BetterDoctor API](https://developer.betterdoctor.com/). Sign up for a new account and create a new application, then copy the API credentials to your pasteboard.
-6. Type `touch .env` in the CLI to create a new file in the root directory of the repository, then paste the API credentials into an `API_KEY` within the .env file. -->
+3. Complete the following lessons at [learnhowtoprogram.com](https://www.learnhowtoprogram.com/) to install Ruby, etc.:
+  * [Installing Ruby](https://www.learnhowtoprogram.com/ruby/getting-started-with-ruby/installing-ruby)
+  * [Managing Ruby Versions](https://www.learnhowtoprogram.com/ruby-and-rails/getting-started-with-ruby/managing-ruby-versions-409a3b5b-7113-4c4e-aead-c97ce8231197)
+  * [Using Ruby Gems](https://www.learnhowtoprogram.com/ruby-and-rails/basic-ruby/using-ruby-gems)
+  * [Using RSpec](https://www.learnhowtoprogram.com/ruby-and-rails/bdd-with-ruby/using-rspec)
 
 ## Known Bugs
 
