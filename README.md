@@ -33,7 +33,11 @@ The following prompt outlines the project requirements:
 
 | Behavior (Our program should handle:) | Example Input (When it receives:) | Example Output (It should return:) |
 | ----------- | ----------- | ----------- |
-|  |  |  |
+| The program should check if two words are anagrams. | "ruby", "bury" | "These words are anagrams." |
+| The program should account for the possibility that words might have different cases but should still be anagrams. | "Ruby", "bury" | "These words are anagrams." |
+| The program should check if the inputs are words. | "mrs", "mrs" | "You need to input actual words!" |
+| The program should check if two words are "antigrams". | "hi", "bye" | "These words have no letter matches and are antigrams." |
+| The program should account for multiple words being anagrams or "antigrams". | "anagram", Nag a ram." | "These words are anagrams." |
 
 ## Setup/Installation Requirements
 

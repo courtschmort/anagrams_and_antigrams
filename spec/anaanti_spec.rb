@@ -14,7 +14,7 @@ describe('#AnaAnti') do
     anaanti = AnaAnti.new("mrs", "mrs")
     expect(anaanti.ana_anti_checker()).to(eq("You need to input actual words!"))
   end
-  it('should check if two words are antigrams') do
+  it('should check if two words are "antigrams"') do
     anaanti = AnaAnti.new("hi", "bye")
     expect(anaanti.ana_anti_checker()).to(eq("These words have no letter matches and are antigrams."))
   end
