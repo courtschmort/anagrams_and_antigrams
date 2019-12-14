@@ -5,8 +5,8 @@ class AnaAnti
   end
 
   def ana_anti_checker
-    word1 = @input1.downcase.gsub(/\s+/, "")
-    word2 = @input2.downcase.gsub(/\s+/, "")
+    word1 = @input1.downcase.gsub(/\W+/, "")
+    word2 = @input2.downcase.gsub(/\W+/, "")
     arr1 = word1.chars.sort
     arr2 = word2.chars.sort
     new_array = arr1 & arr2
